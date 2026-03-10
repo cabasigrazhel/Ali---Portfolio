@@ -1,0 +1,151 @@
+body {
+  font-family: Sans-Serif;
+  
+  
+  
+  
+}
+
+
+#navbar {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items:center;
+	position:fixed;
+	top:0;
+	
+    margin:0px;
+    padding:0px;
+	width:100%;
+	background-color:lightblue;
+	
+}
+
+.opt {
+	
+	margin-right:13px;
+	transition: 0.5s;
+	
+}
+
+.opt:hover {
+	
+	text-decoration: underline;
+	color: green;
+	
+}
+
+
+#abt {
+	
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	text-align: center;
+	background-color: rgb(0, 116, 116);
+	padding-top:50px;
+  margin-top:100px;
+  margin-bottom: 100px;
+  border: solid black 2px;
+  box-shadow: 5px 5px 5px black;
+	
+}
+#photo {
+	
+	height:200px;
+	width:200px;
+	border:solid black 2px;
+	border-radius:10px;
+	
+}
+
+#photo:hover  {
+  
+  border: solid black 2px;
+  padding:3px;
+  box-shadow: 2px 2px 2px black ;
+  
+  
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#skl {
+    
+    
+    background-color: rgb(0, 116, 116) ;
+    text-align: center;
+    border: solid black 2px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#title2 {
+
+    padding-top:8px;
+
+
+
+}
+
+.cards {
+
+    background-color: lightblue;
+    padding:20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border:solid black 2px;
+    box-shadow: 2px 2px 2px black;
+    transition:0.5s;
+
+}
+
+
+.cards:hover {
+
+    padding:25px;
+    box-shadow: 2px 2px 2px white;
+
+}
+
+.cds {
+
+    height:150px;
+    width:150px;
+
+}
+
+#aligner {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+#cnt {
+	
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background-color: rgb(0, 116, 116);
+	padding-top:50px;
+  margin-top:100px;
+  border: solid black 2px;
+  box-shadow: 5px 5px 5px black;o
+	
+}
+
+.wh:hover{
+  
+  background-color:green;
+  padding:2px;
+  box-shadow: 2px 2px 2px black;
+  
+  
+}
